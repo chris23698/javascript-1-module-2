@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SetInterval</title>
     <script src="js/script.js" defer></script>
     <!--    defer. This Boolean attribute is set to indicate to -->
@@ -11,12 +11,37 @@
     <!--    Scripts with the defer attribute will prevent the -->
     <!--    DOMContentLoaded event from firing until the script has-->
     <!--    loaded and finished evaluating-->
-</head>
-<body>
-<main>
-    <h1>Learning SetInterval method</h1>
+  </head>
+  <body>
+    <main>
+      <h1>Learning SetInterval method</h1>
 
-    <ul class="container"></ul>
-</main>
-</body>
+      <ul class="container"></ul>
+      <style>
+        .container {
+          display: flex;
+          flex-direction: row;
+          width: 1200px;
+        }
+        .container li {
+          padding: 50px;
+          margin: 20px;
+          justify-content: center;
+          color: black;
+          border: black 10px solid;
+          border-radius: 50%;
+          width: 40px;
+          height: 40px;
+          display: flex;
+          list-style: none;
+          font-size: 40px;
+        }
+        .newClass {
+          background-color: green;
+          border: green solid 10px;
+          color: white;
+        }
+      </style>
+    </main>
+  </body>
 </html>
